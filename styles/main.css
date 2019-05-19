@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffff;
+}
+
+h1 {
+  color: black;
+  font-weight: lighter;
+}
+
+html {
+  font-family: "Avenir Next", Helvetica, sans-serif;
+  text-align: center;
+}
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px;
+}
+
+input {
+  padding-top: 30px:
+  font-size: 40px;
+  border: none;
+  margin: 0;
+  width: 75%;
+}
+
+ul li {
+  list-style: none;
+  background: #eee;
+  position: relative;
+}
+
+ul li:hover {
+  background: #ddd;
+}
