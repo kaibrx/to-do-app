@@ -11,6 +11,7 @@ function onReady() {
 
     //create new li
     let newLi = document.createElement('li');
+    newLi.classList.add('mdl-list__item', 'newMDL');
 
     //create new input
     let checkbox = document.createElement('input');
@@ -41,7 +42,7 @@ function onReady() {
   });
 }
 
-window.onload = function () {
+window.onload = function() {
 
   onReady();
 };

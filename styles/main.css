@@ -1,41 +1,22 @@
-* {
-  box-sizing: border-box;
+.add {
+  margin-left: 190px;
 }
 
-body {
-  background-color: #ffff;
+.delete {
+  float: right;
 }
 
-h1 {
-  color: black;
-  font-weight: lighter;
+li {
+  width: 300px;
+  height: 60px;
 }
 
-html {
-  font-family: "Avenir Next", Helvetica, sans-serif;
-  text-align: center;
-}
 
-body {
-  max-width: 500px;
-  margin: 0 auto;
-  border: 1px;
-}
-
-input {
-  padding-top: 30px:
-  font-size: 40px;
-  border: none;
-  margin: 0;
-  width: 75%;
-}
-
-ul li {
-  list-style: none;
-  background: #eee;
-  position: relative;
-}
-
-ul li:hover {
+li:hover {
   background: #ddd;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
 }
